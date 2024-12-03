@@ -6,4 +6,4 @@ Invoke-WebRequest -Uri $url -OutFile $outpath
 $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($url, $outpath)
 $args = @("Comma","Separated","Arguments")
-Start-Process $FilePath -ArgumentList $args
+Start-Process -Filepath $FilePath -ArgumentList $args
